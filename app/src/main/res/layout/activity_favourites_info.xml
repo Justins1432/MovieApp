@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FavouritesInfo"
+    android:background="@color/navigation_app"
+    android:paddingBottom="@dimen/searchInfoMovie_vertical_margin"
+    android:paddingLeft="@dimen/searchInfoMovie_horizontal_margin"
+    android:paddingRight="@dimen/searchInfoMovie_horizontal_margin"
+    android:paddingTop="@dimen/searchInfoMovie_vertical_margin">
+
+    <ImageView
+        android:id="@+id/poster_favourites_info_movie"
+        android:layout_width="200dp"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/average_favourites_info_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/rating_movie"
+        android:textColor="@color/text_app"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/release_favourites_info_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/average_favourites_info_movie"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/year_movie"
+        android:textColor="@color/text_app"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/title_favourites_info_movie"
+        style="@android:style/TextAppearance.Holo.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/poster_favourites_info_movie"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/actor"
+        android:text="@string/title_movie"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollViewFavouritesInfo"
+        android:layout_width="370dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/title_favourites_info_movie"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/overview_favourites_info_movie"
+            style="@android:style/TextAppearance.Holo.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_search_movie"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/actor"
+            android:text="@string/overview_movie"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </ScrollView>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/drawable_button_delete"
+        android:onClick="deleteFavouritesMovie"
+        android:src="@drawable/ic_baseline_delete_imagebutton" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/title_app"
+        android:onClick="closeActivity"
+        android:text="@string/close"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

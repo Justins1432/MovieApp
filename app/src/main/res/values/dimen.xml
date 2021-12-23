@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">15dp</dimen>
+
+    <!--Dimen for SearchInfoMovie class -->
+    <dimen name="searchInfoMovie_horizontal_margin">10dp</dimen>
+    <dimen name="searchInfoMovie_vertical_margin">5dp</dimen>
+
+</resources>

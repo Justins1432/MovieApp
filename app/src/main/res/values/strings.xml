@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Developer -->
+    <string name="app_name">MovieApp</string>
+    <string name="name_developer">Зудкин Владислав</string>
+    <string name="sex_developer">Мужской</string>
+    <string name="data_of_birth_developer">27.11.1996</string>
+    <string name="number_phone_developer">+7(901)9431912</string>
+    <string name="email_developer">mr.zudkin@mail.ru</string>
+    <string name="title_developer">Разработчик</string>
+
+    <!--Movie -->
+    <string name="title_movie">Title movie</string>
+    <string name="genre_movie">Genre</string>
+    <string name="year_movie">Year</string>
+    <string name="runtime_movie">Runtime</string>
+    <string name="rating_movie">Rating</string>
+    <string name="overview_movie">Overview</string>
+
+    <!--Search movie -->
+    <string name="search_movie_actionbar">Поиск фильмов</string>
+    <string name="input_movie_edit">Введите название фильма</string>
+
+    <!--Detail movie -->
+    <string name="add_movie_to_favourites">Добавить в избранное</string>
+
+    <!-- App settings -->
+    <string name="app_info">О программе</string>
+    <string name="favourite_movie">Избранное</string>
+    <string name="close">Закрыть</string>
+
+    <!-- App Information -->
+    <string name="app_inform">О программе</string>
+    <string name="app_text">Программа написана по техническому заданию
+        компании "Открытый код" для трудоустройства, написана студентом гр.ИСТб-81 Зудкиным В.Ю</string>
+
+</resources>
