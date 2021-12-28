@@ -1,6 +1,5 @@
 package com.zudkin.movieapp.activities;
 
-
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -96,6 +95,9 @@ public class DetailMovie extends AppCompatActivity {
             Toast.makeText(this, "Ошибка добавления фильма", Toast.LENGTH_SHORT).show();
         }
 
+
+
+        //fghjkl
     }
 
 }
